@@ -1,0 +1,14 @@
+language = "python3"
+entrypoint = "main.py"
+
+[env]
+PORT = "8000"
+ENVIRONMENT = "development"
+
+[features]
+# Включаем Webview
+webview = true
+
+[packager]
+# Автоустановка зависимостей
+alwaysInstallDeps = true

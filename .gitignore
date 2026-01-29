@@ -1,3 +1,10 @@
+# IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*.swo
+
 # Python
 __pycache__/
 *.py[cod]
@@ -9,12 +16,6 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
 
 # OS
 .DS_Store
@@ -28,28 +29,18 @@ logs/
 *.db
 *.sqlite3
 instance/
+support.db
+telegram_bot.db
 
-# Docker
-.dockerignore
-
-# Virtual environments
-.venv/
-
-# Development files
-.dev/
-tmp/
-temp/
-
-# Node.js (если есть)
-node_modules/
-npm-debug.log*
-
-# Testing
-.coverage
-.tox/
-.pytest_cache/
+# Temp files
+*.tmp
+*.temp
 
 # Project specific
-telegram_bot/bot.log
-telegram_bot/telegram_bot.db
-backend/support.db
+__pycache__/
+*.pyc
+*.log
+*.db
+.env
+.venv/
+EOF

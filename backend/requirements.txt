@@ -1,26 +1,9 @@
-# FastAPI с последними версиями
-fastapi==0.109.2
-uvicorn[standard]==0.27.1
-
-# SQLAlchemy
-sqlalchemy==2.0.28
-
-# Pydantic с явным указанием сборки
-pydantic==2.6.2
-
-# Telegram Bot (aiogram 3.10.0 должен работать)
-aiogram==3.10.0
-aiohttp==3.9.3
-
-# Database
-aiosqlite==0.20.0
-redis==5.0.1
-
-# Utils
-httpx==0.27.0
-aiofiles==23.2.1
-python-dotenv==1.0.1
-
-# Для сборки pydantic
-maturin==1.5.1
-setuptools-rust==1.8.1
+# API Dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+pydantic==2.5.0
+psycopg2-binary==2.9.9
+python-dotenv==1.0.0
+python-multipart==0.0.6
+alembic==1.12.1
