@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite3
+instance/
+
+# Docker
+.dockerignore
+
+# Virtual environments
+.venv/
+
+# Development files
+.dev/
+tmp/
+temp/
+
+# Node.js (если есть)
+node_modules/
+npm-debug.log*
+
+# Testing
+.coverage
+.tox/
+.pytest_cache/
+
+# Project specific
+telegram_bot/bot.log
+telegram_bot/telegram_bot.db
+backend/support.db
