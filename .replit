@@ -6,9 +6,9 @@ PORT = "8000"
 ENVIRONMENT = "development"
 
 [features]
-# Включаем Webview
+# Р’РєР»СЋС‡Р°РµРј Webview
 webview = true
 
 [packager]
-# Автоустановка зависимостей
+# РђРІС‚РѕСѓСЃС‚Р°РЅРѕРІРєР° Р·Р°РІРёСЃРёРјРѕСЃС‚РµР№
 alwaysInstallDeps = true
